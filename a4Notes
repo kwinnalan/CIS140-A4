@@ -1,0 +1,9 @@
+
+echo "Hello"
+export PS1="\e[1;32m\W\$ \e[m"
+PATH=$PATH:$PWD
+alias dir="ls -l"
+alias cls="clear"
+w
+alias rm="rm -i"
+set -o noclobber

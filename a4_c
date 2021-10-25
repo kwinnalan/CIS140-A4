@@ -1,0 +1,6 @@
+touch phonelistTemp.csv
+touch phonelistTemp1.csv
+sed 's/\([[:digit:]]\{3\}\)\([[:digit:]]\{3\}\)\([[:digit:]]\{4\}\)/(\1)\2-\3/g' ~/phonelist.csv > phonelistTemp1.csv 
+sed 's/@[^,]*/@starhealth.org/' ~/phonelist.csv > phonelistTemp.csv
+
+

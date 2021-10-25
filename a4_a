@@ -1,0 +1,8 @@
+echo 'export PS1="\e[1;32m\W\$ \e[m"' >> ~/.bash_profile
+echo 'PATH=$PATH:$PWD' >> ~/.bash_profile
+echo 'alias dir="ls -l"' >> ~/.bash_profile
+echo 'alias cls="clear"' >> ~/.bash_profile
+echo 'w' >> ~/.bash_profile
+echo 'alias rm="rm -i"' >> ~/.bash_profile
+echo 'set -o noclobber' >> ~/.bash_profile
+
