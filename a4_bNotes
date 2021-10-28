@@ -1,0 +1,9 @@
+#!/bin/bash
+set -m
+sleep 200&
+kill -STOP %+
+jobs
+fg %+ ; kill -STOP %+
+jobs
+kill %+
+jobs

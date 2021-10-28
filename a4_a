@@ -1,3 +1,4 @@
+#!/bin/bash
 echo 'export PS1="\e[1;32m\W\$ \e[m"' >> ~/.bash_profile
 echo 'PATH=$PATH:$PWD' >> ~/.bash_profile
 echo 'alias dir="ls -l"' >> ~/.bash_profile
